@@ -140,6 +140,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -203,7 +206,19 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
 
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
+
+
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
 
 /* = Custom Styling
 -------------------------------------------------------------- */
@@ -233,6 +248,62 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container-div-scan-style{
 	width:100%;
 }
+.h3-create-style{
+	font-size:21px;
+}
+.btn-style{
+	width:40%;
+	margin-top:10px;
+	color:#ffffff;
+	border-radius:10px 10px 10px 10px;
+}
+.rback{
+	background-color:#FFFFFF;
+	border-color:#7F7F7F!important;
+	border-style:dashed;
+	background-repeat:no-repeat;
+	background-position:center top;
+	color:#000000!important;
+	font-weight:700;
+	text-transform:none;
+	text-decoration:none;
+	letter-spacing:1px;
+	background-clip:padding-box!important;
+	-webkit-background-clip:padding-box!important;
+	font-family:"helvetica";
+	border-radius:5em 5em 5em 5em;
+	border-width:3px 3px 3px 3px;
+}
+.rback:hover{
+	background-color:#FFFFFF;
+	border-color:#7F7F7F!important;
+	background-repeat:no-repeat;
+	border-style:dotted;
+	color:rgba(32,189,22,1.00)!important;
+	background-clip:padding-box!important;
+	-webkit-background-clip:padding-box!important;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:none;
+	border-radius:5em 5em 5em 5em;
+	border-width:3px 3px 3px 3px;
+}
+.rback:active{
+	border-color:#204808!important;
+	border-style:dashed;
+	color:#000000!important;
+	background-clip:padding-box!important;
+	-webkit-background-clip:padding-box!important;
+	background-color:#FFFFFF;
+	border-radius:5em 5em 5em 5em;
+	border-width:3px 3px 3px 3px;
+}
+.h3-4-style{
+	font-size:25px;
+}
+.create-green{
+	color:#00F900!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -243,6 +314,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-red{
 	color:#FF0005!important;
 }
+.tc-white{
+	color:#FFFFFE!important;
+}
 
 /* Link colour styles */
 
@@ -251,6 +325,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-red:hover{
 	color:#cc0004!important;
+}
+.ltc-white{
+	color:#FFFFFE!important;
+}
+.ltc-white:hover{
+	color:#cccccb!important;
 }
 
 
@@ -365,6 +445,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h3-style{
 		font-size:16px;
+	}
+	.h3-4-style{
+		font-size:17px;
+	}
+	.h3-create-style{
+		font-size:15px;
+	}
+	.label-style{
+		font-size:14px;
+	}
+	.rback{
+		font-weight:normal;
 	}
 	
 }
