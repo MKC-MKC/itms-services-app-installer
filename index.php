@@ -25,12 +25,12 @@ $description = 'Empty';
 <body>
 <div class="page-container">
     <?php
-    if ( isset($_GET['url']) )
-        // If success
-        require_once __DIR__."/index/success.php";
+    if (isset($_GET['url'])) {
+        if ($_GET['url']) require_once __DIR__ . "/index/success.php"; // If success
+        elseif (!$_GET['url']) require_once __DIR__ . "/index/error.php"; // If _GET empty
+    }
     else
-        // If _GET empty
-        require_once __DIR__."/index/error.php";
+        require_once __DIR__ . "/index/create.php"; // If _GET not exist
     ?>
 </div>
 <?php
