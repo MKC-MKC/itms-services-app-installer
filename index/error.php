@@ -4,14 +4,14 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h3 class="text-lg-center mx-auto d-block mg-lg text-md-center text-sm-center btn-resize-mode h3-style text-center tc-red"><a class="ltc-red" href="<?php echo URL; ?>"><u>Your link doesn't contain useful data</u></a><br></h3>
+                <h3 class="text-lg-center mx-auto d-block mg-lg text-md-center text-sm-center btn-resize-mode h3-style text-center tc-red"><a class="ltc-red" href="<?=$URL?>"><u>Your link doesn't contain useful data</u></a><br></h3>
                 <div class="row row-style align-items-center">
                     <div class="col-md-8 offset-md-2 align-self-center col-sm-10 offset-sm-1 offset-lg-4 col-lg-4">
                         <div>
 
                             <div data-tilt="" class="img-hover-tilt-container" data-tilt-glare="true" data-tilt-maxglare=".5">
-                                <a class="overlay-link" href="<?php echo URL; ?>">
-                                    <img class="hover-tilt-img-item img-fluid" src="<?php echo URL; ?>/assets/img/unavailable.png" alt="Error" original-image-path="<?php echo URL; ?>/assets/img/unavailabe.png">
+                                <a class="overlay-link" href="<?=$URL?>">
+                                    <img class="hover-tilt-img-item img-fluid" src="<?=$URL?>/assets/img/unavailable.png" alt="Error" original-image-path="<?=$URL?>/assets/img/unavailabe.png">
                                 </a>
                             </div>
 

@@ -6,7 +6,7 @@
 
             <div class="align-self-center col-lg-6 offset-lg-3">
                 <h3 class="text-lg-center mx-auto d-block text-md-center text-sm-center btn-resize-mode h3-style text-center">Scan QR code with your iOS device</h3>
-                <img src="<?php echo htmlspecialchars(URL.'/engine/core.php?qr=' . urlencode('itms-services://?action=download-manifest&amp;url='.$_GET['url'])); ?>" class="img-fluid mx-auto d-block img-style invqr mg-md" alt="Scan this QR" />
+                <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=itms-services://?action=download-manifest&amp;url=<?=$_GET['url']?>" class="img-fluid mx-auto d-block img-style invqr mg-md" alt="Scan this QR" />
             </div>
 
         </div>
@@ -17,7 +17,7 @@
 
             <div class="col-12 col-md-4 align-self-center col-lg-3 offset-lg-2">
                 <div class="blockquote text-lg-center text-center">
-                    <p class="text-lg-center mx-auto d-block p-style text-sm-center">Open source:&nbsp;<a class="ltc-red" href="https://github.com/MKC-MKC/itms-services-app-installer">GitHub</a></p>
+                    <p class="text-lg-center mx-auto d-block p-style text-sm-center">Source:&nbsp;<a class="ltc-red" href="https://github.com/MKC-MKC/itms-services-app-installer">GitHub</a></p>
                 </div>
             </div>
 
